@@ -23,5 +23,3 @@
 <img src="https://skillicons.dev/icons?i=js,react,nodejs,py,java,kotlin,php,cs,aws,gcp,mysql,mongodb,firebase&perline=13" alt="Tech stack: JavaScript, React, React Native, Node.js, Python, Java, Kotlin, PHP, C#, AWS, Google Cloud, MySQL, MongoDB, Firebase" />
 
 <sub>JavaScript · React · React Native · Node.js · Python · Java · Kotlin · PHP · C# · AWS · Google Cloud · BigQuery · SQL Server · MySQL · MongoDB · Firebase · Apache Airflow · Pentaho (PDI) · Power BI · Looker Studio</sub>
-
-📫 **Contact:** eronbelarmino3@gmail.com · [linkedin.com/in/eronbelarmino](https://www.linkedin.com/in/eronbelarmino/) · [linktr.ee/eronb2f](https://linktr.ee/eronb2f)
