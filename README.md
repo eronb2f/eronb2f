@@ -1,33 +1,27 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Eron Belarmino — Full-Stack Developer, Data Engineer and Software Engineering Student" width="100%" />
+  <img src="./assets/banner.svg" alt="Eron Belarmino — Full-Stack Developer and Data Engineer, Software Engineering student, Campinas, SP, Brazil, 4+ years of experience" width="100%" />
 </p>
 
 <p align="center">
-  <!-- TODO: replace YOUR-LINKEDIN-HANDLE with the end of your LinkedIn URL -->
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:eronbelarmino3@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/Open_to_opportunities-0E7490?style=for-the-badge" alt="Open to opportunities" />
+  <a href="https://www.linkedin.com/in/eronbelarmino/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn: linkedin.com/in/eronbelarmino" /></a>
+  <a href="mailto:eronbelarmino3@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email: eronbelarmino3@gmail.com" /></a>
+  <a href="https://linktr.ee/eronb2f"><img src="https://img.shields.io/badge/Open_to_work-0E7490?style=for-the-badge&logo=linktree&logoColor=white" alt="Open to work: linktr.ee/eronb2f" /></a>
 </p>
 
-### 👨‍💻 At a glance
+### 👨‍💻 Eron Belarmino · at a glance
 
-- 🏥 Built software and data solutions for **Hospital Israelita Albert Einstein** and **Cogna Educação**
+- 💼 **Full-Stack Developer & Data Engineer** · 4+ years of experience · Campinas, SP, Brazil · open to new roles
+- 🏢 **Worked at:** Hospital Albert Einstein (via ACT Digital & Mirante) · Cogna Educação · Eagles · Venturus
 - ⚛️ **Full-stack:** web & mobile apps, REST APIs
 - 🔄 **Data:** ETL pipelines, cloud data warehouses, BI dashboards
-- 🎓 **B.S. Software Engineering** · Universidade Anhanguera (2026 – 2029)
-- 🌎 Portuguese · English (advanced) · Spanish (intermediate)
-<!-- TODO (optional): one fun fact or hobby, e.g.
-- ⚡ When I'm not coding: ...
--->
+- 🎓 **Education:** B.S. Software Engineering · Universidade Anhanguera (2026 – 2029, in progress)
+- 🌎 **Languages:** Portuguese (native) · English (advanced) · Spanish (intermediate)
+- 🎮 **Free time:** sci-fi & drama books, RPGs, rock / pop / electronic music, sci-fi & suspense movies and series
 
 ### 🧰 Tech stack
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=js,react,nodejs,py,java,kotlin,php,cs,aws,gcp,mysql,mongodb,firebase&perline=13" alt="JavaScript, React / React Native, Node.js, Python, Java, Kotlin, PHP, C#, AWS, Google Cloud, MySQL, MongoDB, Firebase" />
-</p>
-<p align="left">
-  <img src="https://img.shields.io/badge/Apache_Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white" alt="Apache Airflow" />
-  <img src="https://img.shields.io/badge/BigQuery-4285F4?style=flat-square&logo=googlebigquery&logoColor=white" alt="Google BigQuery" />
-  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" alt="Power BI" />
-</p>
+<img src="https://skillicons.dev/icons?i=js,react,nodejs,py,java,kotlin,php,cs,aws,gcp,mysql,mongodb,firebase&perline=13" alt="Tech stack: JavaScript, React, React Native, Node.js, Python, Java, Kotlin, PHP, C#, AWS, Google Cloud, MySQL, MongoDB, Firebase" />
+
+<sub>JavaScript · React · React Native · Node.js · Python · Java · Kotlin · PHP · C# · AWS · Google Cloud · BigQuery · SQL Server · MySQL · MongoDB · Firebase · Apache Airflow · Pentaho (PDI) · Power BI · Looker Studio</sub>
+
+📫 **Contact:** eronbelarmino3@gmail.com · [linkedin.com/in/eronbelarmino](https://www.linkedin.com/in/eronbelarmino/) · [linktr.ee/eronb2f](https://linktr.ee/eronb2f)
