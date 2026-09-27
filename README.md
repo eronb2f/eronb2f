@@ -2,13 +2,7 @@
   <img src="./assets/banner.svg" alt="Eron Belarmino — Full-Stack Developer and Data Engineer, Software Engineering student, Campinas, SP, Brazil, 4+ years of experience" width="100%" />
 </p>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/eronbelarmino/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn: linkedin.com/in/eronbelarmino" /></a>
-  <a href="mailto:eronbelarmino3@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email: eronbelarmino3@gmail.com" /></a>
-  <a href="https://linktr.ee/eronb2f"><img src="https://img.shields.io/badge/Open_to_work-0E7490?style=for-the-badge&logo=linktree&logoColor=white" alt="Open to work: linktr.ee/eronb2f" /></a>
-</p>
-
-### 👨‍💻 Eron Belarmino · at a glance
+### 👨‍💻 Myself at a glance
 
 - 💼 **Full-Stack Developer & Data Engineer** · 4+ years of experience · Campinas, SP, Brazil · open to new roles
 - 🏢 **Worked at:** Hospital Albert Einstein (via ACT Digital & Mirante) · Cogna Educação · Eagles · Venturus
