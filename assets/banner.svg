@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" role="img" aria-labelledby="title desc">
+  <title id="title">Eron Belarmino</title>
+  <desc id="desc">Full-Stack Developer, Data Engineer and Software Engineering student from Campinas, Brazil.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1322"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.08" cy="0.05" r="0.55">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.92" cy="1" r="0.5">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#8b949e" fill-opacity="0.16"/>
+    </pattern>
+    <clipPath id="card">
+      <rect width="1000" height="280" rx="18"/>
+    </clipPath>
+    <path id="route" d="M730 75 H875 V205 H730"/>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; }
+    .role { opacity: 0; animation: cycle 9s ease-in-out infinite; }
+    .r2 { animation-delay: 3s; }
+    .r3 { animation-delay: 6s; }
+    @keyframes cycle {
+      0%        { opacity: 0; transform: translateY(8px); }
+      5%, 29%   { opacity: 1; transform: translateY(0); }
+      33%, 100% { opacity: 0; transform: translateY(-8px); }
+    }
+    .caret { animation: blink 1.1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .flow { stroke-dasharray: 3 9; animation: flow 1.2s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -12; } }
+    .static { opacity: 0; }
+    @media (prefers-reduced-motion: reduce) {
+      .role, .caret, .flow { animation: none; }
+      .role { opacity: 0; }
+      .static { opacity: 1; }
+    }
+  </style>
+
+  <g clip-path="url(#card)">
+    <!-- background -->
+    <rect width="1000" height="280" fill="url(#bg)"/>
+    <rect width="1000" height="280" fill="url(#dots)"/>
+    <rect width="1000" height="280" fill="url(#glowA)"/>
+    <rect width="1000" height="280" fill="url(#glowB)"/>
+
+    <!-- left: identity -->
+    <text x="56" y="80" class="mono" font-size="16" fill="#7d8590">eron@campinas:~$ <tspan fill="#c9d1d9">whoami</tspan><tspan class="caret" fill="#22d3ee">▍</tspan></text>
+
+    <text x="54" y="146" class="sans" font-size="60" font-weight="700" letter-spacing="-1.2" fill="#f0f6fc">Eron Belarmino</text>
+
+    <g class="sans" font-size="25" font-weight="600">
+      <text x="56" y="190" class="role r1" fill="url(#accent)">Full-Stack Developer</text>
+      <text x="56" y="190" class="role r2" fill="url(#accent)">Data Engineer</text>
+      <text x="56" y="190" class="role r3" fill="url(#accent)">Software Engineering Student</text>
+      <text x="56" y="190" class="static" fill="url(#accent)">Full-Stack Developer · Data Engineer</text>
+    </g>
+
+    <text x="56" y="232" class="sans" font-size="15" fill="#7d8590">Campinas, SP · Brazil<tspan dx="12" fill="#30363d">|</tspan><tspan dx="12">4+ years across software &amp; data</tspan></text>
+
+    <!-- right: data pipeline -->
+    <g fill="none" stroke="#22d3ee" stroke-opacity="0.55" stroke-width="2" stroke-linecap="round">
+      <path class="flow" d="M730 75 H820"/>
+      <path class="flow" d="M875 110 V170"/>
+      <path class="flow" d="M820 205 H730"/>
+    </g>
+
+    <!-- moving data packets (drawn under the nodes) -->
+    <circle r="3.5" fill="#22d3ee">
+      <animateMotion dur="3.6s" repeatCount="indefinite" rotate="auto"><mpath href="#route"/></animateMotion>
+    </circle>
+    <circle r="3.5" fill="#a78bfa" opacity="0">
+      <set attributeName="opacity" to="1" begin="1.8s"/>
+      <animateMotion dur="3.6s" begin="1.8s" repeatCount="indefinite"><mpath href="#route"/></animateMotion>
+    </circle>
+
+    <g stroke="#30363d" stroke-width="1.5" fill="#111826">
+      <rect x="620" y="40" width="110" height="70" rx="12"/>
+      <rect x="820" y="40" width="110" height="70" rx="12"/>
+      <rect x="820" y="170" width="110" height="70" rx="12"/>
+      <rect x="620" y="170" width="110" height="70" rx="12"/>
+    </g>
+
+    <!-- icon: sources (database) -->
+    <g fill="none" stroke="#22d3ee" stroke-width="1.8">
+      <ellipse cx="675" cy="54" rx="13" ry="4.5"/>
+      <path d="M662 54 V72 A13 4.5 0 0 0 688 72 V54"/>
+      <path d="M662 63 A13 4.5 0 0 0 688 63"/>
+    </g>
+
+    <!-- icon: pipelines (DAG) -->
+    <g stroke="#a78bfa" stroke-width="1.6" fill="none">
+      <path d="M858 63 L875 53 M858 63 L875 73 M875 53 L892 63 M875 73 L892 63"/>
+    </g>
+    <g fill="#a78bfa">
+      <circle cx="858" cy="63" r="3.6"/>
+      <circle cx="875" cy="53" r="3.6"/>
+      <circle cx="875" cy="73" r="3.6"/>
+      <circle cx="892" cy="63" r="3.6"/>
+    </g>
+
+    <!-- icon: warehouse (layers) -->
+    <g fill="none" stroke="#22d3ee" stroke-width="1.8" stroke-linejoin="round">
+      <path d="M861 186 L875 179 L889 186 L875 193 Z"/>
+      <path d="M861 192 L875 199 L889 192"/>
+      <path d="M861 198 L875 205 L889 198"/>
+    </g>
+
+    <!-- icon: dashboards (bar chart) -->
+    <g fill="#a78bfa">
+      <rect x="661" y="193" width="5" height="10" rx="1"/>
+      <rect x="669" y="186" width="5" height="17" rx="1"/>
+      <rect x="677" y="190" width="5" height="13" rx="1"/>
+      <rect x="685" y="181" width="5" height="22" rx="1"/>
+    </g>
+
+    <g class="mono" font-size="12" fill="#8b949e" text-anchor="middle">
+      <text x="675" y="98">sources</text>
+      <text x="875" y="98">pipelines</text>
+      <text x="875" y="228">warehouse</text>
+      <text x="675" y="228">dashboards</text>
+    </g>
+
+    <!-- bottom accent -->
+    <rect x="0" y="274" width="1000" height="6" fill="url(#accent)"/>
+  </g>
+
+  <rect x="0.75" y="0.75" width="998.5" height="278.5" rx="17.5" fill="none" stroke="#30363d" stroke-width="1.5"/>
+</svg>
